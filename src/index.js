@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import { DndProvider } from 'react-dnd'
 
-import { Container} from './dustbin'
+// import { Example } from './dustbin'
+import { Example } from './naive'
 
 function App() {
   return (
     <div className="App">
       <DndProvider backend={HTML5Backend}>
-        <Container />
+        <Example />
       </DndProvider>
     </div>
   )

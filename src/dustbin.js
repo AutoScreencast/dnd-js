@@ -125,7 +125,7 @@ const Box = ({ name }) => {
   )
 }
 
-export function Container() {
+export function Example() {
   return (
     <div>
       <div style={{ overflow: 'hidden', clear: 'both' }}>
@@ -140,7 +140,7 @@ export function Container() {
   )
 }
 
-// export const Container = memo(function Container() {
+// export const Example = memo(function Example() {
 //   return (
 //     <div>
 //       <div style={{ overflow: 'hidden', clear: 'both' }}>
