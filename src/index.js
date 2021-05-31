@@ -4,7 +4,8 @@ import { HTML5Backend } from 'react-dnd-html5-backend'
 import { DndProvider } from 'react-dnd'
 
 // import { Example } from './dustbin'
-import { Example } from './naive'
+// import { Example } from './naive'
+import { Example } from './custom'
 
 function App() {
   return (
